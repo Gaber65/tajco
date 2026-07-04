@@ -18,7 +18,7 @@ const Loader = (() => {
     if (loaderEl) {
       setTimeout(() => {
         loaderEl.classList.add('is-hidden');
-      }, 300);
+      }, 100);
     }
   };
 
