@@ -341,7 +341,7 @@ img, iframe, video, embed, object {
     box-shadow: -18px 0 40px rgba(0,0,0,0.4);
   }
   .nav-links.is-open { transform: translateX(0); }
-  .nav-links a { width: 100%; padding: 14px 6px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .nav-links a { width: 100%; padding: 12px 6px; border-bottom: 1px solid rgba(255,255,255,0.06); }
   .navbar-toggler-custom { display: inline-flex; }
   .btn-nav-cta { display: none; }
 }
