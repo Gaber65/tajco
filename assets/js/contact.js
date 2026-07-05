@@ -9,7 +9,7 @@ const ContactForm = (() => {
   const initEmailJS = () => {
     if (window.emailjs) {
       emailjs.init({
-        publicKey: "kcYJlLzg-1lL8nAP7"
+        publicKey: "Ui6bZEGZqj5rNNnWq"
       });
     }
   };
@@ -92,13 +92,13 @@ const ContactForm = (() => {
         phone: contactForm.querySelector('[name="phone"]').value,
         service: contactForm.querySelector('[name="service"]').value,
         message: contactForm.querySelector('[name="message"]').value,
-        to_email: 'Info@tajco.com'
+        to_email: 'Info@tajco-sa.com'
       };
 
       if (window.emailjs) {
         emailjs.send(
-          "service_2d6ub69",
-          "template_m53wds2",
+          "service_zdztnyt",
+          "template_gexi8pn",
           params
         ).then(
           () => {

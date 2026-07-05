@@ -339,7 +339,7 @@ document.addEventListener('DOMContentLoaded', function () {
         phone: contactForm.querySelector('[name="phone"]').value,
         service: contactForm.querySelector('[name="service"]').value,
         message: contactForm.querySelector('[name="message"]').value,
-        to_email: 'Info@tajco.com'
+        to_email: 'Info@tajco-sa.com'
       };
 
       if (window.emailjs) {
